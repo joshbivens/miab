@@ -34,29 +34,31 @@ class Message:
         now = datetime.now()
         timestamp = now.strftime("%B %d, %Y - %I:%M%p")
         return timestamp
-
+    
     @classmethod
     def get_random_message(cls):
-        # Get all documents in the "messages" collection
-        docs = cls.db.collection("messages").get()
+        # Get count of records
+        messages_ref = cls.db.collection("messages")
+        total_count = len(messages_ref.get())
 
-        # If there are no documents, return None
-        if not docs:
+        if total_count == 0:
             return None
+        
+        # Make random idex
+        random_index = random.randint(0, total_count - 1)
 
-        # Generate a random index
-        random_index = random.randint(0, len(docs) - 1)
+        # Get random record
+        random_message_query = messages_ref.order_by(u"timestamp").limit(1).offset(random_index)
+        random_message_doc = random_message_query.get()
 
-        # Get the document at the random index
-        random_doc = docs[random_index]
+        if not random_message_doc:
+            return None
+        
+        # Set message data
+        random_message_data = random_message_doc[0].to_dict()
+        message = random_message_data.get("message")
+        timestamp = random_message_data.get("timestamp")
 
-        # Set random message and timestamp
-        message = random_doc.to_dict().get("message")
-        timestamp = random_doc.to_dict().get("timestamp")
-
-        # Remove the selected document from the docs list
-        # to prevent repeats
-        del docs[random_index]
-
-        # Return as a tuple
+        # Return tuple
         return message, timestamp
+
