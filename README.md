@@ -4,9 +4,8 @@ Message In A Bottle is a simple Python application that allows users to send and
 
 ## Features
 
-- **Send Messages**: Users can send messages using the provided text entry field and send button.
-- **Random Messages**: Users can receive random messages from the database when they submit a message of their own.
-- **Receive Messages**: Messages are retrieved from Firestore and displayed in the application's message display area.
+- **Send Messages**: Users can send a message using the text entry field and send button.
+- **Random Messages**: Users receive a random message from the database when they submit a message of their own.
 - **Timestamps**: Each message is timestamped.
 
 ## Installation
@@ -32,7 +31,7 @@ To run the Message In A Bottle application locally, follow these steps:
 
 ## Populating Firestore with Dummy Messages
 
-Populate your Firestore database with dummy messages for using the `PopulateDB.py` script:
+Populate your Firestore database with dummy messages using the `PopulateDB.py` script:
 ```bash
 python PopulateDB.py
 ```
