@@ -16,13 +16,20 @@ To run the Message In A Bottle application locally, follow these steps:
 1. Clone this repository to your local machine:
    ```bash
    git clone https://github.com/joshbivens/miab.git
+   ```
+
 2. Install the dependencies:
     ```bash
     pip install -r requirements.txt
+    ```
+
 3. Link your own empty [Firestore](https://firebase.google.com/docs/firestore/quickstart). The app looks for a `serviceAccountKey.json` file.
+
 4. Run the app:
     ```bash
-    python MessageGUI.py
+    python main.py
+    ```
+
 ## Populating Firestore with Dummy Messages
 
 If you'd like to populate your Firestore database with dummy messages for testing purposes, you can use the `PopulateDB.py` script provided in the repository. Follow these steps:

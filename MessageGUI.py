@@ -1,7 +1,7 @@
 # Programmer: Josh Bivens
 # Email: thejoshbivens@gmail.com
 # Purpose:
-#   GUI class (and entry point) of the Message In A Bottle application. 
+#   GUI class of the Message In A Bottle application. 
 #   Creates/manages GUI components and interacts with the Message class 
 #   to send and display messages. 
 
@@ -71,8 +71,3 @@ class MessageInABottleGUI:
             
     def start(self):
         self.window.mainloop()
-
-if __name__ == "__main__":
-    root = tk.Tk()
-    gui = MessageInABottleGUI(root)
-    gui.start()
