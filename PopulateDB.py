@@ -1,8 +1,10 @@
-# BivensFinalProject
-# Programmer: Joshua Bivens
-# Email: jbivens1@cnm.edu
-# Purpose: Populate Firestore with dummy messages
-# Python version: 3.11.2
+# Programmer: Josh Bivens
+# Email: thejoshbivens@gmail.com
+# Purpose:  
+#   Prefills the Firestore with dummy entries. The get_random_timestamp
+#   function generates a random timestamp from the last year. A new random
+#   timestamp is set to each dummy message's timestamp.
+        
 
 from Firebase import db
 from datetime import datetime, timedelta

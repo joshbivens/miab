@@ -1,8 +1,10 @@
-# BivensFinalProject
-# Programmer: Joshua Bivens
-# Email: jbivens1@cnm.edu
-# Purpose: Send messages to a database, retrieve messages from a database
-# Python version: 3.11.2
+# Programmer: Josh Bivens
+# Email: thejoshbivens@gmail.com
+# Purpose:
+#   GUI class (and entry point) of the Message In A Bottle application. 
+#   Creates/manages GUI components and interacts with the Message class 
+#   to send and display messages. 
+
 
 import tkinter as tk
 from Message import Message
