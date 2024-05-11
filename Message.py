@@ -4,6 +4,7 @@
 #   Message class. Serves as a model for managing message data and 
 #   provides an interface for interacting with Firestore.
 
+
 from firestore_service import FirestoreService
 
 class Message:
