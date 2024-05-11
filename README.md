@@ -33,5 +33,5 @@ To run the Message In A Bottle application locally, follow these steps:
 
 Populate your Firestore database with dummy messages using the `PopulateDB.py` script:
 ```bash
-python PopulateDB.py
+python populate_db.py
 ```
