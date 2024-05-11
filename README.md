@@ -32,11 +32,7 @@ To run the Message In A Bottle application locally, follow these steps:
 
 ## Populating Firestore with Dummy Messages
 
-If you'd like to populate your Firestore database with dummy messages for testing purposes, you can use the `PopulateDB.py` script provided in the repository. Follow these steps:
-
-1. Ensure you have the necessary permissions and access to your Firestore database.
-
-2. Run the `PopulateDB.py` script:
-   ```bash
-   python PopulateDB.py
-   ```
+Populate your Firestore database with dummy messages for using the `PopulateDB.py` script:
+```bash
+python PopulateDB.py
+```
