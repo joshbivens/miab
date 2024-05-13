@@ -1,4 +1,4 @@
-![](https://img.shields.io/github/downloads/wsw70/note/total?style=plastic) ![](https://img.shields.io/github/last-commit/wsw70/note)
+![](https://img.shields.io/github/downloads/miab/note/total?style=plastic) ![](https://img.shields.io/github/last-commit/miab/note)
 
 # Message In A Bottle
 
