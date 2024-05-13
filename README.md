@@ -2,7 +2,7 @@
 
 # Message In A Bottle
 
-Message In A Bottle: a simple Python app that allows users to send and receive messages stored in a Firestore database. The application features a GUI built with Tkinter.
+A simple Python app that allows users to send and receive messages stored in a Firestore database. The application features a GUI built with Tkinter.
 
 ## Features
 
