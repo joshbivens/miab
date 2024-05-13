@@ -1,6 +1,5 @@
 ![](https://img.shields.io/github/last-commit/joshbivens/miab)
-![](https://img.shields.io/github/commit-activity/w/:user/:repo)
-
+![](https://img.shields.io/github/commit-activity/w/joshbivens/miab)
 
 # Message In A Bottle
 
