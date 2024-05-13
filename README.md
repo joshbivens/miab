@@ -1,4 +1,4 @@
-![](https://img.shields.io/github/downloads/miab/note/total?style=plastic) ![](https://img.shields.io/github/last-commit/miab/note)
+![](https://img.shields.io/github/downloads/joshbivens/miab/total?style=plastic) ![](https://img.shields.io/github/last-commit/joshbivens/miab)
 
 # Message In A Bottle
 
