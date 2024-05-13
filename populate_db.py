@@ -3,7 +3,7 @@
 # Purpose:  
 #   Prefills the Firestore with dummy entries. The get_random_timestamp
 #   function generates a random timestamp from the last year. A new random
-#   timestamp is set to each dummy message's timestamp.
+#   timestamp is set to each dummy message's timestamp. 
         
 
 from Firebase import db
