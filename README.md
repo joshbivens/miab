@@ -9,7 +9,7 @@ A simple Python app that allows users to send and receive messages stored in a F
 
 - **Send Messages**: Users can send a message using the text entry field and send button.
 - **Random Messages**: Users receive a random message from the database when they submit a message of their own.
-- **Timestamps**: Each message is timestamped.
+- **Timestamps**: Each message is timestamped when submitted.
 
 ## Installation
 
