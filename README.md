@@ -1,6 +1,8 @@
 ![](https://img.shields.io/github/last-commit/joshbivens/miab)
 ![](https://img.shields.io/github/commit-activity/w/joshbivens/miab)
 
+![](https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white)
+
 # Message In A Bottle
 
 A simple Python app that allows users to send and receive messages stored in a Firestore database. The application features a GUI built with Tkinter.
