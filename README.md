@@ -1,7 +1,8 @@
 ![](https://img.shields.io/github/last-commit/joshbivens/miab)
 ![](https://img.shields.io/github/commit-activity/w/joshbivens/miab)
 
-![](https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white)
+![Python Badge](https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white)
+![Firebase Badge](https://img.shields.io/badge/Firebase-FFCA28?logo=firebase&logoColor=000&style=plastic)
 
 # Message In A Bottle
 
